@@ -2,7 +2,7 @@
 %define		module		inotify
 #
 Summary:	Inotify module for Python
-Summary(pl.UTF8):	Moduł inotify dla języka Python
+Summary(pl.UTF-8):	Moduł inotify dla języka Python
 Name:		python-%{module}
 Version:	0.1.0
 Release:	0.1
