@@ -27,16 +27,14 @@ TODO
 %setup -q
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__install} -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-python setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 mv $RPM_BUILD_ROOT%{_bindir}/inotify $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
