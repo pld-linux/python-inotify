@@ -5,7 +5,7 @@ Summary:	Inotify module for Python
 Summary(pl.UTF-8):	Moduł inotify dla języka Python
 Name:		python-%{module}
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	GPL, other
 Group:		Libraries/Python
 Source0:	http://rudd-o.com/wp-content/uploads/projects/files/python-inotify/python-%{module}-%{version}.tar.gz
