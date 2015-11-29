@@ -12,7 +12,7 @@ Source0:	http://rudd-o.com/wp-content/uploads/projects/files/python-inotify/pyth
 # Source0-md5:	361bcab2f0cd57cdaf6fe6fe433778b0
 URL:		http://rudd-o.com/projects/python-inotify/
 BuildRequires:	python-devel >= 1:2.3
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
